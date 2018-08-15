@@ -1,0 +1,45 @@
+/*HERO CODE */
+
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: gray;
+}
+
+.hero
+{
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text */
+    text-align: center;
+    color: white;
+    
+    /*Background style */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Abstract Water.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1
+{
+    font-size: 5em;
+    
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+}
